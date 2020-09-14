@@ -1,0 +1,30 @@
+.blog-form {
+  max-width: 70%;
+  min-height: 50vh;
+  margin: 0 auto;
+  margin-top: 5px;
+  background-color: #011528;
+  color: wheat;
+}
+.form-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog-input:valid {
+  background-color: #000025;
+  color: whitesmoke;
+}
+@media (max-width: 500px) {
+  .upload-post {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-btns {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 105px;
+    display: flex;
+    flex-direction: row;
+  }
+}

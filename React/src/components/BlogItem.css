@@ -1,0 +1,46 @@
+.blog-card {
+  max-width: 70%;
+  /* min-height: 50vh; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.card-text {
+  margin-left: 150px;
+}
+.card-button {
+  margin-right: 0;
+  position: absolute;
+  right: 10px;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+.profile-name-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+}
+.profile-name-img {
+  width: 20%;
+  max-height: 10vh;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media (max-width: 500px) {
+  .card-text {
+    margin-left: 50px;
+  }
+  .blog-card {
+    max-width: 100%;
+  }
+  .card-button {
+    margin-right: 0;
+    position: relative;
+    bottom: 5px;
+    left: 50px;
+  }
+}

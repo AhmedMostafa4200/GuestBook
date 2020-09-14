@@ -1,0 +1,9 @@
+.add-blog {
+  color: #343f6b;
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
+  z-index: 1;
+  transform: scale(3);
+  cursor: pointer;
+}
